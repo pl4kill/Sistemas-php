@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li, a, button{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    background-color: #6b26d9;
+    overflow: hidden;
+}
+.logo{
+    cursor: pointer;
+    color: white;
+}
+.barra{
+    list-style: none;
+}
+.barra li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.barra li a {
+    transition: all .5s ease 0s;
+}
+.barra li a:hover{
+    color: #dbb7f8f5;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+button:hover{
+    background-color: #8826d9;
+}
+.curso{
+    text-align: center;
+}
+
